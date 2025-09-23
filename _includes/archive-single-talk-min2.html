@@ -13,7 +13,7 @@
 {% endif %}
 
 <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
 
     <!-- Text on the left -->
     <div style="width:85%;">
@@ -44,7 +44,7 @@
     {% if post.image %}
         <div style="width:15%; text-align:right;">
             <a href="{{ base_path }}{{ post.url }}">
-            <img src="{{ site.url }}{{ post.image }}" style="width:120px; height:50px; object-fit: cover;"></a>
+            <img src="{{ site.url }}{{ post.image }}" style="width:120px; height:60px; object-fit: cover; display:block;"></a>
         </div>
         {% endif %}
 </div>  
