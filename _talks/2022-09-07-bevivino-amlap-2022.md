@@ -12,8 +12,15 @@ coauthors: 'B. Hemforth &amp; G. Turco'
 category: posters
 paperurl: 
 abstracturl: 
-posterurl: 'https://cnrs.hal.science/hal-03924672/document'
+# posterurl: 'https://cnrs.hal.science/hal-03924672/document'
+posterurl: '/files/posters/AMLaP2022_VirtualPoster_DB.pdf'
+posterpng: '/files/posters/AMLaP2022_VirtualPoster_DB.png'
 ---
 
 Poster presented at AMLaP 2022
 
+<!-- [![amlap2022 poster]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png)]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf) -->
+
+<!-- <a href="{{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf" target="_blank">
+  <img src="{{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png" style="max-width:50%;">
+</a> -->

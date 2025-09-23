@@ -12,7 +12,15 @@ coauthors: 'B. Hemforth &amp; G. Turco'
 category: posters
 paperurl: 
 abstracturl: 'https://amlap2025.ff.cuni.cz/wp-content/uploads/sites/131/2025/09/AMLAP_book_of_abstracts.pdf#page=327'
-posterurl: 'https://drive.google.com/file/d/1HApG5mfw5M327wXHzSMFAK1S-K8QMZVE/view?usp=sharing'
+# posterurl: 'https://drive.google.com/file/d/1HApG5mfw5M327wXHzSMFAK1S-K8QMZVE/view?usp=sharing'
+posterurl: '/files/posters/AMLaP2025_DB_final.pdf'
+posterpng: '/files/posters/AMLaP2025_DB_final.png'
 ---
 
 Poster presented at AMLaP 2025
+
+<!-- [![amlap2022 poster]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png)]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf) -->
+
+<!-- <a href="{{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf" target="_blank">
+  <img src="{{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png" style="max-width:50%;">
+</a> -->

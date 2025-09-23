@@ -12,7 +12,15 @@ coauthors: 'G. Turco &amp; B. Hemforth'
 category: posters
 paperurl: 
 abstracturl: 
-posterurl: 'https://drive.google.com/file/d/1LwfH2QShIuDlz4T5dRptvIFGUrqLDO_h/view?usp=sharing'
+# posterurl: 'https://drive.google.com/file/d/1LwfH2QShIuDlz4T5dRptvIFGUrqLDO_h/view?usp=sharing'
+posterurl: '/files/posters/AMLaP2023_poster_Dorotea.pdf'
+posterpng: '/files/posters/AMLaP2023_poster_Dorotea.png'
 ---
 
 Poster presented at AMLaP 2023
+
+<!-- [![amlap2022 poster]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png)]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf) -->
+
+<!-- <a href="{{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf" target="_blank">
+  <img src="{{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png" style="max-width:50%;">
+</a> -->
