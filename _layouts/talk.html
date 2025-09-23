@@ -41,25 +41,22 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {{ content }}
         <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
-          {% if page.citation and page.paperurl and page.posterurl and page.abstracturl %}
+        {% if page.citation and page.paperurl and page.posterurl and page.abstracturl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a> | <a href="{{ page.abstracturl }}">Abstract</a> | <a href="{{ page.paperurl }}">Paper</a></p>
         {% elsif page.citation and page.posterurl and page.abstracturl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a> | <a href="{{ page.abstracturl }}">Abstract</a></p>
         {% elsif page.citation and page.posterurl and page.paperurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a> | <a href="{{ page.paperurl }}">Paper</a></p>
-        {% elsif page.citation and page.posterurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a></p>
         {% elsif page.citation and page.paperurl and page.abstracturl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a> | <a href="{{ page.paperurl }}">Paper</a></p>
+        {% elsif page.citation and page.posterurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.posterurl }}">Poster</a></p>
         {% elsif page.citation and page.abstracturl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a></p>
         {% elsif page.citation and page.paperurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a></p>
-        <!-- {% elsif page.paperurl and page.bibtexurl %} -->
-          <!-- <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p> -->
-        <!-- {% elsif page.citation and page.bibtexurl %} -->
-          <!-- <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Bibtex</a></p> -->
         {% elsif page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% elsif page.posterurl %}
@@ -67,7 +64,12 @@ layout: default
         {% elsif page.abstracturl %}
           <p style="font-size: smaller"><a href="{{ page.abstracturl }}">Abstract</a></p>
         {% endif %}
-        {{ content }}
+      
+      <!-- ADDED PRINTING POSTER -->
+        {% if page.posterurl %}
+          <a href="{{ site.url }}{{page.posterurl}}" target="_blank">
+              <img src="{{ site.url }}{{page.posterpng}}" style="max-width:50%;"></a>
+        {% endif %}
       </section>
 
       <footer class="page__meta">
