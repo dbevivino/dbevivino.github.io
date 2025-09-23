@@ -12,9 +12,9 @@ coauthors: 'B. Hemforth &amp; G. Turco'
 category: posters
 paperurl: 'https://doi.org/10.21437/SpeechProsody.2024-203'
 abstracturl: 'https://amlap2025.ff.cuni.cz/wp-content/uploads/sites/131/2025/09/AMLAP_book_of_abstracts.pdf#page=327'
-posterurl: '/images/slides1.pdf'
+posterurl: '/images/snaps/BAP_amlap.png'
 ---
 
 Presented at Speech Prosody 2024
 
-<img src="/poster/poster.png" alt="" class="featured-image">
+<img src="/images/snaps/BAP_amlap.png" alt="" class="featured-image">
