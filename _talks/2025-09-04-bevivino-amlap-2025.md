@@ -11,3 +11,10 @@ citation: '<strong>Bevivino, D.</strong>, Hemforth, B., &amp; Turco, G. (2025, S
 coauthors: 'B. Hemforth &amp; G. Turco'
 category: posters
 ---
+
+Presented at Speech Prosody, 2024
+
+Recommended citation: Bevivino, D., Huygevelde, M., Hemforth, B., & Turco, G. (2024). Priming boundaries in production: Data from French. Proceedings of the 12th International Conference on Speech Prosody, 1005–1009. https://doi.org/10.21437/SpeechProsody.2024-203
+Abstract | Poster | Paper
+
+<img src="/poster/poster.png" alt="" class="featured-image">
