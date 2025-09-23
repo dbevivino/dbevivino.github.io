@@ -13,11 +13,11 @@
 {% endif %}
 
 <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5em; margin:0;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5em; margin-bottom:1rem;">
 
     <!-- Text on the left -->
     <div style="width:85%;">
-    <h3 class="archive__item-title" itemprop="headline" style="margin-bottom: 1rem""">
+    <h3 class="archive__item-title" itemprop="headline" style="margin:0;"">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
