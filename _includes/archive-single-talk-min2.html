@@ -44,7 +44,7 @@
     {% if post.image %}
         <div style="width:15%; text-align:right;">
             <a href="{{ base_path }}{{ post.url }}">
-            <img src="{{ site.url }}{{ post.image }}" style="width:120px; height:auto;"></a>
+            <img src="{{ site.url }}{{ post.image }}" style="width:120px; height:80px; object-fit: cover;"></a>
         </div>
         {% endif %}
 </div>  
