@@ -27,11 +27,13 @@
     
     <!-- {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %} -->
     {% if post.date %}
-    <p class="page__meta" style="margin: 5px 0;">
-        <span style="display: inline-block; width: 150px;">
-            <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
+    <!-- <p class="page__meta" style="margin: 5px 0;"> -->
+      <!-- <span style="display: inline-block; width: 120px;"> -->
+       <p class="page__meta" style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.5em;">
+          <span style="white-space: nowrap; width: 100px; margin-right: 1em;">
+            <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%B %Y' }}
         </span>
-    {% if post.coauthors %}<span style="margin-left: 1em;">with {{ post.coauthors }}</span>{% endif %}
+    {% if post.coauthors %}<span style="white-space: nowrap;">with {{ post.coauthors }}</span>{% endif %}
     </p>{% endif %}
 
   {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{post.type}} at {{ post.venue }}, in {{post.location}}</p>{% endif %}
