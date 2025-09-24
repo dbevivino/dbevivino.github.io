@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- {% include cv-template.html %} -->
+Last updated: August 2025
 
 <div>
 <iframe src="https://cnrs.hal.science/hal-03924619/document"
