@@ -11,8 +11,8 @@ redirect_from:
 
 <!-- {% include cv-template.html %} -->
 
-<div class="cv">
-<iframe src="https://drive.google.com/file/d/1hbw9SCerEI3u-isu1d77nYIEazExWVZa/view?usp=sharing"
+<div>
+<iframe src="https://cnrs.hal.science/hal-03924619/document"
 width="100%" height="600px" style="border:none;" ></iframe>
 </div>
 
