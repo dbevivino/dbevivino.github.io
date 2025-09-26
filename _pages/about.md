@@ -54,9 +54,15 @@ First and second language acquisition
 Multilingualism 
 Psycholinguistics and cognitive neuroscience of language  -->
 
-<div class="two-columns-local">
+<!-- <div class="two-columns-local">
+<div class="column" style = "flex: 0 0 20%; min-width: 100px;"> -->
 
-<div class="column" style = "flex: 0 0 20%; min-width: 100px;">
+<!-- Two-column responsive layout -->
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+  <!-- Interests -->
+  <div style="flex: 1 1 300px; min-width: 250px;">
+
     <!-- Interests HTML -->
     <h2>Interest</h2>
   <ul class="fa-ul">
@@ -66,7 +72,10 @@ Psycholinguistics and cognitive neuroscience of language  -->
 </div>
 
 <!-- Education -->
-<div class="column" style="flex: 0 0 65%; min-width: 200px;">
+<!-- <div class="column" style="flex: 0 0 65%; min-width: 200px;"> -->
+
+<!-- Education -->
+  <div style="flex: 1 1 300px; min-width: 250px;">
 <h2>Education</h2>
 
 <div><h3 class="archive__item-title" style="font-weight: normal; text-decoration: none; margin-bottom: 0em;"><span style="margin-right: 0.5em;">🎓</span>PhD in Psycholinguistics</h3>
@@ -102,11 +111,11 @@ Psycholinguistics and cognitive neuroscience of language  -->
 
 <!-- # News -->
 
-<!-- Inline CSS scoped to this section -->
+<!-- Inline CSS scoped to this section
 <style>
 .two-columns-local {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 2rem;
 }
@@ -114,4 +123,4 @@ Psycholinguistics and cognitive neuroscience of language  -->
   flex: 1;
   min-width: 200px;
 }
-</style>
+</style> -->
