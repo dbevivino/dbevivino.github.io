@@ -20,7 +20,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <!-- Interests -->
-  <div style="flex: 0 1 35%; min-width: 150px;">
+  <div style="flex: 0 1 33%; min-width: 150px;">
 
     <!-- Interests HTML -->
     <h2>Interest</h2>
@@ -37,7 +37,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
 <!-- <div class="column" style="flex: 0 0 65%; min-width: 200px;"> -->
 
 <!-- Education -->
-  <div style="flex: 3 1 65%; min-width: 250px;">
+  <div style="flex: 0 1 63%; min-width: 250px;">
 <h2>Education</h2>
 
 <ul class="fa-ul">
