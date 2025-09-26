@@ -37,7 +37,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
 <!-- <div class="column" style="flex: 0 0 65%; min-width: 200px;"> -->
 
 <!-- Education -->
-  <div style="flex: 3 1 3; min-width: 250px;">
+  <div style="flex: 3 1 0; min-width: 250px;">
 <h2>Education</h2>
 
 <ul class="fa-ul">
