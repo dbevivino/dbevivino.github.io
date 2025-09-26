@@ -13,15 +13,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<!-- <div class="two-columns-local">
-<div class="column" style = "flex: 0 0 20%; min-width: 100px;"> -->
-
 <!-- Two-column responsive layout -->
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-
-  <!-- Interests -->
-  <div style="flex: 0 1 40%; min-width: 150px;">
-
+<div style="flex: 1 1 0; min-width: 150px;">
     <!-- Interests HTML -->
     <h2>Interest</h2>
   <ul class="fa-ul">
@@ -32,14 +26,8 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
     <li><span class="fa-li">📖</span>Open science, Data analysis, and Data visualization</li>
     </ul>
 </div>
-
-<!-- Education -->
-<!-- <div class="column" style="flex: 0 0 65%; min-width: 200px;"> -->
-
-<!-- Education -->
-  <div style="flex: 0 1 55%; min-width: 250px;">
+<div style="flex: 3 1 0; min-width: 250px;">
 <h2>Education</h2>
-
 <ul class="fa-ul">
   <li><span class="fa-li">🎓</span>PhD in Psycholinguistics
     <span style="display:block; margin-bottom:0.2em; font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span></li>

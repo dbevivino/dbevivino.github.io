@@ -25,7 +25,7 @@ author:
   avatar           : "my-pic.jpg"
   name             : "Dorotea Bevivino"
   pronouns         : # "she/her"  
-  bio              : # "Short biography for the left-hand sidebar"
+  bio              : "" # "Short biography for the left-hand sidebar"
   location         : "Paris, France"
   employer         : # "Red Brick University"
   uri              : # URL
