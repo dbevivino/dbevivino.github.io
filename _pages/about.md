@@ -26,7 +26,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
     <h2>Interest</h2>
   <ul class="fa-ul">
     <li><span class="fa-li">📖</span>Prosody and Speech processing</li>
-    <li><span class="fa-li">📖</span>Sentence Processing</li>
+    <li><span class="fa-li">📖</span>Sentence processing</li>
     <li><span class="fa-li">📖</span>Language acquisition and Multilingualism</li>
     <li><span class="fa-li">📖</span>Psycholinguistics and cognitive neuroscience of language</li>
     <li><span class="fa-li">📖</span>Open science, Data analysis, and Data visualization</li>
@@ -44,9 +44,9 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
   <li><span class="fa-li">🎓</span>PhD in Psycholinguistics<br> 
     <span style="line-height:1.2; margin-top:0.2em; font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span></li>
   <li><span class="fa-li">📍</span>Research Stay at the Cognition, Attention, Perception, and Speech Lab (CAPSlab)<br> 
-    <span style="line-height:1.2; margin-top:0.2em; font-size:0.8em; color:#004a69">Mount Holyoke College 🇺🇸</span></li>
+    <span style="margin-top:0.2em; font-size:0.8em; color:#004a69">Mount Holyoke College 🇺🇸</span></li>
   <li><span class="fa-li">🎓</span>MSc in Cognitive Neuroscience of Language<br>
-    <span style="line-height:1.2; margin-top:0.2em; font-size:0.8em; color:#004a69">Basque Center on Cognition, Brain and Language (BCBL) and University of the Basque Country󠁥 🇪🇸</span></li>
+    <span style="margin-top:0.2em; font-size:0.8em; color:#004a69">Basque Center on Cognition, Brain and Language (BCBL) and University of the Basque Country󠁥 🇪🇸</span></li>
   <li><span class="fa-li">🎓</span>CELI Examiner Certificate (habilitation to evaluate Italian Language Proficiency Certificates)<br>
     <span style="font-size:0.8em; color:#004a69">University for Foreigners of Perugia 🇮🇹</span></li>
   <li><span class="fa-li">🎓</span>CEDILS Certificate (Certificate in Teaching Italian as a Second Language)<br>
