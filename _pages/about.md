@@ -20,7 +20,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <!-- Interests -->
-  <div style="flex: 1 1 150px; min-width: 200px;">
+  <div style="flex: 1 1 150px; min-width: 150px;">
 
     <!-- Interests HTML -->
     <h2>Interest</h2>
@@ -47,7 +47,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
     <span style="display:block; margin-bottom:0.2em; font-size:0.8em; color:#004a69">Mount Holyoke College 🇺🇸</span></li>
   <li><span class="fa-li">🎓</span>MSc in Cognitive Neuroscience of Language
     <span style="display:block; margin-bottom:0.2em; font-size:0.8em; color:#004a69">Basque Center on Cognition, Brain and Language (BCBL) and University of the Basque Country󠁥 🇪🇸</span></li>
-  <li><span class="fa-li">🎓</span>CELI Examiner Certificate (habilitation to evaluate Italian Language Proficiency Certificates)
+  <li><span class="fa-li">🎓</span>CELI Examiner Certificate (habilitation to evaluate Italian Language Proficiency Exams)
     <span style="display:block; margin-bottom:0.2em; font-size:0.8em; color:#004a69">University for Foreigners of Perugia 🇮🇹</span></li>
   <li><span class="fa-li">🎓</span>CEDILS Certificate (Certificate in Teaching Italian as a Second Language)
     <span style="display:block; margin-bottom:0.2em; font-size:0.8em; color:#004a69">Ca’ Foscari University of Venice 🇮🇹</span></li>
