@@ -61,7 +61,7 @@ Psycholinguistics and cognitive neuroscience of language  -->
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <!-- Interests -->
-  <div style="flex: 1 1 300px; min-width: 250px;">
+  <div style="flex: 1 1 200px; min-width: 250px;">
 
     <!-- Interests HTML -->
     <h2>Interest</h2>
@@ -75,10 +75,17 @@ Psycholinguistics and cognitive neuroscience of language  -->
 <!-- <div class="column" style="flex: 0 0 65%; min-width: 200px;"> -->
 
 <!-- Education -->
-  <div style="flex: 1 1 300px; min-width: 250px;">
+  <div style="flex: 2 1 400px; min-width: 250px;">
 <h2>Education</h2>
 
-<div><h3 class="archive__item-title" style="font-weight: normal; text-decoration: none; margin-bottom: 0em;"><span style="margin-right: 0.5em;">🎓</span>PhD in Psycholinguistics</h3>
+<ul class="fa-ul">
+    <li><span class="fa-li">🎓</span>PhD in Psycholinguistics</li>
+    <p class="page__meta" style = "margin-top: 0em; margin-bottom: 0.5em;" >
+    <span style="margin-left: 2em; font-size:0.8em;">Université Paris Cité, CNRS 🇲🇫</span></p>
+</ul>
+
+<div><h3 class="archive__item-title" style="font-weight: normal; text-decoration: none; margin-bottom: 0em;">
+<span style="margin-right: 0.5em;">🎓</span>PhD in Psycholinguistics</h3>
   <p class="page__meta" style = "margin-top: 0em; margin-bottom: 0.5em;" >
     <span style="margin-left: 2em; font-size:0.8em;">Université Paris Cité, CNRS 🇲🇫</span></p></div>
 
