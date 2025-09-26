@@ -17,7 +17,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 <div style="flex: 38 1 0; min-width: 150px;">
     <!-- Interests HTML -->
-    <h2>Interest</h2>
+    <h2 style="margin-top:0;">Interest</h2>
   <ul class="fa-ul">
     <li><span class="fa-li">📖</span>Prosody and Speech processing</li>
     <li><span class="fa-li">📖</span>Sentence processing</li>
@@ -27,7 +27,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
     </ul>
 </div>
 <div style="flex: 57 1 0; min-width: 250px;">
-<h2>Education</h2>
+<h2 style="margin-top:0;">Education</h2>
 <ul class="fa-ul">
   <li><span class="fa-li">🎓</span>PhD in Psycholinguistics
     <span style="display:block; margin-bottom:0.2em; font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span></li>
