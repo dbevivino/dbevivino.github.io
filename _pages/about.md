@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Lorem ipsum dolor sit amet. Ea distinctio impedit ut molestiae voluptas ut ullam aspernatur et Quis deserunt sit sint illum 33 quia porro ut tenetur beatae. Et dolor amet et rerum autem ex voluptatem explicabo et alias excepturi et laboriosam cumque! Quo iusto quod 33 nesciunt quisquam et vero adipisci qui quod alias est porro natus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.
 
-Aut recusandae odit qui nisi enim ut deserunt voluptates qui maxime consequatur ut nostrum quos. Aut iure expedita qui ullam quas ad debitis dolores aut quis ratione?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. 
 
-Ex officia consectetur in doloremque galisum sed quod quasi. Eum suscipit voluptatem eum laboriosam velit est illum reiciendis sed molestiae laboriosam ea dicta nihil.
+Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 <!-- Reseach interests
@@ -83,7 +83,7 @@ Psycholinguistics and cognitive neuroscience of language  -->
 
 <ul class="fa-ul">
   <li><span class="fa-li">🎓</span>PhD in Psycholinguistics<br> 
-    <span style="font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span></li>
+    <span style="margin: 0 0; font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span></li>
   <li><span class="fa-li">📍</span>Research Stay at the Cognition, Attention, Perception, and Speech Lab (CAPSlab)<br> 
     <span style="font-size:0.8em; color:#004a69">Mount Holyoke College 🇺🇸</span></li>
   <li><span class="fa-li">🎓</span>MSc in Cognitive Neuroscience of Language<br>
