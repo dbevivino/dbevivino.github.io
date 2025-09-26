@@ -45,8 +45,8 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
     <span style="line-height:1.2; margin-top:0.2em; font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span></li>
   <li><span class="fa-li">📍</span>Research Stay at the Cognition, Attention, Perception, and Speech Lab (CAPSlab)<br> 
     <span style="margin-top:0.2em; font-size:0.8em; color:#004a69">Mount Holyoke College 🇺🇸</span></li>
-  <li><span class="fa-li">🎓</span>MSc in Cognitive Neuroscience of Language<br>
-    <span style="margin-top:0.2em; font-size:0.8em; color:#004a69">Basque Center on Cognition, Brain and Language (BCBL) and University of the Basque Country󠁥 🇪🇸</span></li>
+  <li><span class="fa-li">🎓</span>MSc in Cognitive Neuroscience of Language
+    <span style="display:block; margin-top:0.2em; font-size:0.8em; color:#004a69">Basque Center on Cognition, Brain and Language (BCBL) and University of the Basque Country󠁥 🇪🇸</span></li>
   <li><span class="fa-li">🎓</span>CELI Examiner Certificate (habilitation to evaluate Italian Language Proficiency Certificates)<br>
     <span style="font-size:0.8em; color:#004a69">University for Foreigners of Perugia 🇮🇹</span></li>
   <li><span class="fa-li">🎓</span>CEDILS Certificate (Certificate in Teaching Italian as a Second Language)<br>
