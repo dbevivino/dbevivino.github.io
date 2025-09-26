@@ -13,47 +13,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-
-<!-- Reseach interests
-------
-<ul class="fa-ul">
-  <li>
-    <span class="fa-li">📖</span>
-    Prosody
-  </li>
-  <li>
-    <span class="fa-li">📖</span>
-    Sentence Processing
-  </li>
-  <li>
-    <span class="fa-li">📖</span>
-    First and Second Language Acquisition
-  </li>
-  <li>
-    <span class="fa-li">📖</span>
-    Multilingualism 
-  </li>
-  <li>
-    <span class="fa-li">📖</span>
-    Psycholinguistics and Cognitive Neuroscience of Language
-    # , Usage-Based Approaches to linguistic issues
-  </li>
-  <li>
-    <span class="fa-li">📖</span>
-    Open Science, Data Analysis, and Data Visualization
-  </li>
-</ul> -->
-
-<!-- Prosody, Speech Processing, Sentence Processing, Language Acquisition and Multilingualism 
-Psycholinguistics and Cognitive Neuroscience of Language, Usage-Based Approaches to linguistic issues
-Open Science, Data Analysis, and Data Visualization -->
-
-<!-- Prosody
-Sentence processing
-First and second language acquisition
-Multilingualism 
-Psycholinguistics and cognitive neuroscience of language  -->
-
 <!-- <div class="two-columns-local">
 <div class="column" style = "flex: 0 0 20%; min-width: 100px;"> -->
 
@@ -83,11 +42,11 @@ Psycholinguistics and cognitive neuroscience of language  -->
 
 <ul class="fa-ul">
   <li><span class="fa-li">🎓</span>PhD in Psycholinguistics<br> 
-    <span style="margin: 0 0; font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span></li>
+    <span style="margin: 0 0 0 0; font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span></li>
   <li><span class="fa-li">📍</span>Research Stay at the Cognition, Attention, Perception, and Speech Lab (CAPSlab)<br> 
     <span style="font-size:0.8em; color:#004a69">Mount Holyoke College 🇺🇸</span></li>
   <li><span class="fa-li">🎓</span>MSc in Cognitive Neuroscience of Language<br>
-    <span style="font-size:0.8em; color:#004a69">Basque Center on Cognition, Brain and Language (BCBL) and University of the Basque Country󠁥 🇪🇸</span></li>
+    <span style="margin: 0 0 0 0;  font-size:0.8em; color:#004a69">Basque Center on Cognition, Brain and Language (BCBL) and University of the Basque Country󠁥 🇪🇸</span></li>
   <li><span class="fa-li">🎓</span>CELI Examiner Certificate (habilitation to evaluate Italian Language Proficiency Certificates)<br>
     <span style="font-size:0.8em; color:#004a69">University for Foreigners of Perugia 🇮🇹</span></li>
   <li><span class="fa-li">🎓</span>CEDILS Certificate (Certificate in Teaching Italian as a Second Language)<br>

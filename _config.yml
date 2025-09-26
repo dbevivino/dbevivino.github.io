@@ -37,10 +37,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=BkzXcdsAAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0002-2647-6464"
+  orcid            : # "https://orcid.org/0009-0002-2647-6464"
   semantic         : # URL
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : "https://www.researchgate.net/profile/Dorotea-Bevivino"
+  pubmed           : # "URL"
+  researchgate     : # "https://www.researchgate.net/profile/Dorotea-Bevivino"
   scopus           : # URL
 
   # Repositories and software development
@@ -50,10 +50,11 @@ author:
   github           : # "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")   
-  osf              : "https://osf.io/r42cv/" 
+  osf              : # "https://osf.io/r42cv/" 
 
   # Social media
   artstation       : # Username
+  twitter          : "DoroteaBevivino"
   bluesky          : "doroteabevivino.bsky.social"
   facebook         : # Username
   flickr           : # Username
@@ -71,7 +72,6 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
