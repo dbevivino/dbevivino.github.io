@@ -24,7 +24,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
 
     <!-- Interests HTML -->
     <h2>Interest</h2>
-  <ul class="fa-ul" style="padding-left: 0">
+  <ul class="fa-ul">
     <li><span class="fa-li">📖</span>Prosody and Speech processing</li>
     <li><span class="fa-li">📖</span>Sentence processing</li>
     <li><span class="fa-li">📖</span>Language acquisition and Multilingualism</li>
@@ -40,7 +40,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
   <div style="flex: 3 1 600px; min-width: 250px;">
 <h2>Education</h2>
 
-<ul class="fa-ul" style="padding-left: 0; margin-left: 0;">
+<ul class="fa-ul">
   <li><span class="fa-li">🎓</span>PhD in Psycholinguistics
     <span style="display:block; margin-bottom:0.2em; font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span></li>
   <li><span class="fa-li">📍</span>Research Stay at the Cognition, Attention, Perception, and Speech Lab (CAPSlab)
