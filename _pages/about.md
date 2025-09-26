@@ -79,9 +79,14 @@ Psycholinguistics and cognitive neuroscience of language  -->
 <h2>Education</h2>
 
 <ul class="fa-ul">
-    <li><span class="fa-li">🎓</span>PhD in Psycholinguistics</li>
-    <p class="page__meta" style = "margin-top: 0em; margin-bottom: 0.5em;" >
-    <span style="margin-left: 2em; font-size:0.8em;">Université Paris Cité, CNRS 🇲🇫</span></p>
+    <li><span class="fa-li">🎓</span>PhD in Psycholinguistics
+    <br> 
+    <span style="margin-left: 2em; font-size:0.8em; color:#004a69">Université Paris Cité, CNRS 🇲🇫</span>
+    </li>
+    <li><span class="fa-li">📍</span>Research Stay at the Cognition, Attention, Perception, and Speech Lab (CAPSlab)
+    <br> 
+    <span style="margin-left: 2em; font-size:0.8em; color:#004a69">Mount Holyoke College 🇺🇸</span>
+    </li>
 </ul>
 
 <div><h3 class="archive__item-title" style="font-weight: normal; text-decoration: none; margin-bottom: 0em;">
