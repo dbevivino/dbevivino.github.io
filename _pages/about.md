@@ -15,7 +15,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
 
 <!-- Two-column responsive layout -->
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-<div style="flex: 1 1 0; min-width: 150px;">
+<div style="flex: 38 1 0; min-width: 150px;">
     <!-- Interests HTML -->
     <h2>Interest</h2>
   <ul class="fa-ul">
@@ -26,7 +26,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
     <li><span class="fa-li">📖</span>Open science, Data analysis, and Data visualization</li>
     </ul>
 </div>
-<div style="flex: 3 1 0; min-width: 250px;">
+<div style="flex: 57 1 0; min-width: 250px;">
 <h2>Education</h2>
 <ul class="fa-ul">
   <li><span class="fa-li">🎓</span>PhD in Psycholinguistics
