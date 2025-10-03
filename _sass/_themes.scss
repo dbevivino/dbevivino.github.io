@@ -6,8 +6,8 @@
    TYPOGRAPHY
    ========================================================================== */
 
-/* Import updated font */
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Lato&family=Maven+Pro&display=swap');
+/* Import updated font normal and bold */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Maven+Pro:wght@400;700&display=swap');
 
 /* Used to set the size for <em> */
 $doc-font-size              : 16;
@@ -23,7 +23,6 @@ $serif                      : Georgia, Times, serif;
 
 // New font stack to be imported cf. line at the top
 $sans-serif : "Inter", "Open Sans", "Lato", "Maven Pro", sans-serif;
-
 
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
