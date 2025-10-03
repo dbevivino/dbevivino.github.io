@@ -6,6 +6,9 @@
    TYPOGRAPHY
    ========================================================================== */
 
+/* Import updated font */
+// @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Lato&family=Maven+Pro&display=swap');
+
 /* Used to set the size for <em> */
 $doc-font-size              : 16;
 
@@ -15,7 +18,13 @@ $indent-var                 : 1.3em;
 
 /* System typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+// Original system stack commented out
+// $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+// New font stack to be imported cf. line at the top
+$sans-serif : "Inter", "Open Sans", "Lato", "Maven Pro", sans-serif;
+
+
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
