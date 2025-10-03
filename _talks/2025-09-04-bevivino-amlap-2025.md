@@ -17,7 +17,7 @@ posterurl: '/files/posters/AMLaP2025_DB_final.pdf'
 posterpng: '/files/posters/AMLaP2025_DB_final.png'
 ---
 
-Poster presented at AMLaP 2025
+Poster presented at [AMLaP 2025](https://amlap2025.ff.cuni.cz/)
 
 <!-- [![amlap2022 poster]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png)]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf) -->
 

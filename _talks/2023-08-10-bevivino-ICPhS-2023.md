@@ -17,7 +17,7 @@ posterurl: '/files/posters/ICPhS2023_posterweb_Dorotea.pdf'
 posterpng: '/files/posters/ICPhS2023_posterweb_Dorotea.png'
 ---
 
-Poster presented at the 20th International Congress of Phonetic Sciences (ICPhS) 2023
+Poster presented at the [20th International Congress of Phonetic Sciences (ICPhS) 2023](https://fu.ff.cuni.cz/icphs2023/www.icphs2023.org/)
 
 <!-- [![amlap2022 poster]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png)]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf) -->
 

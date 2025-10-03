@@ -17,7 +17,7 @@ posterurl: '/files/posters/AMLaP2022_VirtualPoster_DB.pdf'
 posterpng: '/files/posters/AMLaP2022_VirtualPoster_DB.png'
 ---
 
-Poster presented at AMLaP 2022
+Poster presented at [AMLaP 2022](https://amlap2022.york.ac.uk/)
 
 <!-- [![amlap2022 poster]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png)]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf) -->
 

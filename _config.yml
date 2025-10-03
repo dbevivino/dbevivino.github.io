@@ -90,6 +90,8 @@ publication_category:
   conferences:
     # title: 'Conference Papers'
     title: 'Peer-Reviewed Publications/Proceedings'
+  dissertations:
+    title: 'Dissertations'
 
 # Talk Category - list of talk categories and their headings
 talk_category:

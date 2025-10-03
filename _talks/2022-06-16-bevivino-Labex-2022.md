@@ -11,4 +11,4 @@ citation: '<strong>Bevivino, D</strong>., Turco, G., &amp; Hemforth, B. (2022). 
 category: invited
 ---
 
-Talk delivered at the Laboratory of Excellence "Empirical Foundations of Linguistics" (LabEx EFL) Annual Symposium
+Talk delivered at the [Laboratory of Excellence "Empirical Foundations of Linguistics" (LabEx EFL)](https://en.labex-efl.fr/) Annual Symposium

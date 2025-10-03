@@ -17,7 +17,7 @@ posterurl: '/files/posters/AMLaP2023_poster_Dorotea.pdf'
 posterpng: '/files/posters/AMLaP2023_poster_Dorotea.png'
 ---
 
-Poster presented at AMLaP 2023
+Poster presented at [AMLaP 2023](https://www.bcbl.eu/events/amlap/en/)
 
 <!-- [![amlap2022 poster]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.png)]({{ site.url }}/files/posters/AMLaP2022_VirtualPoster_DB.pdf) -->
 
