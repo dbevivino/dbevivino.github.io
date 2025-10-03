@@ -91,7 +91,7 @@ publication_category:
     # title: 'Conference Papers'
     title: 'Peer-Reviewed Publications/Proceedings'
   dissertations:
-    title: 'Dissertations'
+    title: 'Dissertation'
 
 # Talk Category - list of talk categories and their headings
 talk_category:
