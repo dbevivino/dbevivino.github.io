@@ -7,7 +7,7 @@ venue: "Architectures and Mechanisms for Language Processing (AMLaP 29)"
 date: 2023-09-02
 location: "Donostia-San Sebastián, Basque Country, Spain"
 image: '/images/snaps/BAP_ajt.png'
-citation: '<strong>Bevivino, D.</strong>, Turco, G., &amp; Hemforth, B. (2023). Does priming prosodic phrasing modulate reading times? Evidence from audio-primed acceptability judgment experiments. <em>Architectures and Mechanisms for Language Processing (AMLaP 29)</em>. Donostia-San Sebastían, Basque Country, Spain.'
+citation: '<strong>Bevivino, D.</strong>, Turco, G., &amp; Hemforth, B. (2023). Does priming prosodic phrasing modulate reading times? Evidence from audio-primed acceptability judgment experiments. <em>Architectures and Mechanisms for Language Processing (AMLaP 29)</em>. Donostia-San Sebastián, Basque Country, Spain.'
 coauthors: 'G. Turco &amp; B. Hemforth'
 category: posters
 paperurl: 

@@ -17,7 +17,7 @@ Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nu
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 <div style="flex: 38 1 0; min-width: 150px;">
     <!-- Interests HTML -->
-    <h2 style="margin-top:0;">Interest</h2>
+    <h2 style="margin-top:0;">Interests</h2>
   <ul class="fa-ul">
     <li><span class="fa-li">📖</span>Prosody and Speech processing</li>
     <li><span class="fa-li">📖</span>Sentence processing</li>
