@@ -42,29 +42,45 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
-        {% if page.citation and page.paperurl and page.posterurl and page.abstracturl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ site.url }}{{page.posterurl}}">Poster</a> | <a href="{{ page.abstracturl }}">Abstract</a> | <a href="{{ page.paperurl }}">Paper</a></p>
-        {% elsif page.citation and page.posterurl and page.abstracturl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ site.url }}{{page.posterurl}}">Poster</a> | <a href="{{ page.abstracturl }}">Abstract</a></p>
-        {% elsif page.citation and page.posterurl and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ site.url }}{{page.posterurl}}">Poster</a> | <a href="{{ page.paperurl }}">Paper</a></p>
-        {% elsif page.citation and page.paperurl and page.abstracturl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a> | <a href="{{ page.paperurl }}">Paper</a></p>
-        {% elsif page.citation and page.posterurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ site.url }}{{page.posterurl}}">Poster</a></p>
-        {% elsif page.citation and page.abstracturl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.abstracturl }}">Abstract</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.posterurl %}
-          <p style="font-size: smaller"><a href="{{ page.posterurl }}">Poster</a></p>
-        {% elsif page.abstracturl %}
-          <p style="font-size: smaller"><a href="{{ page.abstracturl }}">Abstract</a></p>
-        {% endif %}
       
+      {% assign links = "" %}  
+
+      {% if page.posterurl %}
+        {% assign links = links | append: '<a href="' | append: page.posterurl | append: '">Poster</a>' %}
+      {% endif %}
+
+      {% if page.abstracturl %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.abstracturl | append: '">Abstract</a>' %}
+      {% endif %}
+
+      {% if page.paperurl %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.paperurl | append: '">Paper</a>' %}
+      {% endif %}
+
+      <!-- add extra customizable file at the end -->
+      {% if page.extraurl %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.extraurl | append: '">' | append: page.extraname | default: "Extra" | append: '</a>' %}
+      {% endif %}
+
+      <p style="font-size: smaller">
+        {% if page.citation %}
+          Recommended citation: {{ page.citation }}<br />
+          <br />
+        {% endif %}
+        {{ links }}
+      </p>
+
+      <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
+
       <!-- ADDED PRINTED POSTER -->
         {% if page.posterurl %}
           <a href="{{ site.url }}{{page.posterurl}}" target="_blank">
