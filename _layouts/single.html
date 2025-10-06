@@ -47,33 +47,35 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.paper2url %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.paper2url }}">Paper2</a></p>
-        {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a></p>
-        {% elsif page.citation and page.paperurl and page.paper2url %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.paper2url }}">Corrected version</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a></p>
-        {% elsif page.citation and page.slidesurl and page.paper2url %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.paper2url }}">Corrected version</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a></p>
-        {% elsif page.slidesurl and page.paper2url %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.paper2url }}">Corrected version</a></p>
-        {% elsif page.paperurl and page.paper2url %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.paper2url }}">Corrected version</a></p>
-        {% elsif page.citation and page.paper2url %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paper2url }}">Corrected version</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Slides</a></p>
-        {% elsif page.paper2url %}
-          <p style="font-size: smaller"><a href="{{ page.paper2url }}">Corrected version</a></p>
-        {% endif %}
+      {% assign links = "" %}  
 
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      {% if page.paperurl %}
+        {% assign links = links | append: '<a href="' | append: page.paperurl | append: '">Paper</a>' %}
+      {% endif %}
+
+      {% if page.slidesurl %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.slidesurl | append: '">Slides</a>' %}
+      {% endif %}
+
+      <!-- add extra customizable file at the end -->
+      {% if page.extraurl %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.extraurl | append: '">' | append: page.extraname | default: "Extra" | append: '</a>' %}
+      {% endif %}
+
+      <p style="font-size: smaller">
+        {% if page.citation %}
+          Recommended citation: {{ page.citation }}<br />
+        {% endif %}
+        {{ links }}
+      </p>
+
+      {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
       <footer class="page__meta">
