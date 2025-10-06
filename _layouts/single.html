@@ -50,14 +50,14 @@ layout: default
       {% assign links = "" %}  
 
       {% if page.paperurl %}
-        {% assign links = links | append: '<a href="' | append: page.paperurl | append: '">Paper</a>' %}
+        {% assign links = links | append: '<a href="' | append: page.paperurl | append: '" target="_blank" rel="noopener noreferrer">Paper</a>' %}
       {% endif %}
 
       {% if page.slidesurl %}
         {% if links != "" %}
           {% assign links = links | append: ' | ' %}
         {% endif %}
-        {% assign links = links | append: '<a href="' | append: page.slidesurl | append: '">Slides</a>' %}
+        {% assign links = links | append: '<a href="' | append: page.slidesurl | append: '" target="_blank" rel="noopener noreferrer">Slides</a>' %}
       {% endif %}
 
       <!-- add extra customizable file at the end -->
@@ -65,7 +65,7 @@ layout: default
         {% if links != "" %}
           {% assign links = links | append: ' | ' %}
         {% endif %}
-        {% assign links = links | append: '<a href="' | append: page.extraurl | append: '">' | append: page.extraname | default: "Extra" | append: '</a>' %}
+        {% assign links = links | append: '<a href="' | append: page.extraurl | append: '" target="_blank" rel="noopener noreferrer">' | append: page.extraname | default: "Extra" | append: '</a>' %}
       {% endif %}
 
       <!-- add another extra customizable file at the end -->
@@ -73,7 +73,7 @@ layout: default
         {% if links != "" %}
           {% assign links = links | append: ' | ' %}
         {% endif %}
-        {% assign links = links | append: '<a href="' | append: page.extra2url | append: '">' | append: page.extra2name | default: "Extra" | append: '</a>' %}
+        {% assign links = links | append: '<a href="' | append: page.extra2url | append: '" target="_blank" rel="noopener noreferrer">' | append: page.extra2name | default: "Extra" | append: '</a>' %}
       {% endif %}
 
       <p style="font-size: smaller">
