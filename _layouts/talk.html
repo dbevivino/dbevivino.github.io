@@ -78,10 +78,12 @@ layout: default
         {% assign links = links | append: '<a href="' | append: page.extra2url | append: '" target="_blank" rel="noopener noreferrer">' | append: page.extra2name | default: "Extra" | append: '</a>' %}
       {% endif %}
 
-      <p style="font-size: smaller; padding-bottom: 0.3em;">
-        {% if page.citation %}
-          Recommended citation: {{ page.citation }}<br />
-        {% endif %}
+      {% if page.citation %}
+      <p style="font-size: smaller; margin-bottom: 0.5em;">
+          Recommended citation: {{ page.citation }}
+      </p>
+      {% endif %}
+      <p style="font-size: smaller; margin-bottom: 0.5em;">
         {{ links }}
       </p>
 
