@@ -68,9 +68,18 @@ layout: default
         {% assign links = links | append: '<a href="' | append: page.extraurl | append: '">' | append: page.extraname | default: "Extra" | append: '</a>' %}
       {% endif %}
 
+      <!-- add another extra customizable file at the end -->
+      {% if page.extra2url %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.extra2url | append: '">' | append: page.extra2name | default: "Extra" | append: '</a>' %}
+      {% endif %}
+
       <p style="font-size: smaller">
         {% if page.citation %}
           Recommended citation: {{ page.citation }}<br />
+          <br />
         {% endif %}
         {{ links }}
       </p>
