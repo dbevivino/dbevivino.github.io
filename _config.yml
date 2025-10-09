@@ -24,8 +24,8 @@ author:
   # Biographic information
   avatar           : "my-pic.jpg"
   name             : "Dorotea Bevivino"
-  pronouns         : # "she/her"  
-  bio              : "" # "Short biography for the left-hand sidebar"
+  pronouns         : "she/her"  
+  bio              : "PhD in Psycholinguistics" # "Short biography for the left-hand sidebar"
   location         : "Paris, France"
   employer         : # "Red Brick University"
   uri              : # URL
