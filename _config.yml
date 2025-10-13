@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "my-pic.jpg"
   name             : "Dorotea Bevivino"
-  pronouns         : "she/her"  
+  pronouns         : # "she/her"  
   bio              : "PhD in Psycholinguistics" # "Short biography for the left-hand sidebar"
   location         : "Paris, France"
   employer         : # "Red Brick University"
@@ -40,7 +40,7 @@ author:
   orcid            : # "https://orcid.org/0009-0002-2647-6464"
   semantic         : # URL
   pubmed           : # "URL"
-  researchgate     : # "https://www.researchgate.net/profile/Dorotea-Bevivino"
+  researchgate     : "https://www.researchgate.net/profile/Dorotea-Bevivino"
   scopus           : # URL
 
   # Repositories and software development

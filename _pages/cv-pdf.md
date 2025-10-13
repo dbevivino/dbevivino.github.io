@@ -10,8 +10,10 @@ author_profile: true
 Last updated: August 2025
 
 <div>
-<iframe src="https://cnrs.hal.science/hal-03924619/document"
-width="100%" height="600px" style="border:none;" ></iframe>
+<iframe 
+    src="{{ site.url }}/files/CV_DoroteaBevivino_2025_web.pdf"
+    width="100%" 
+    height="600px" 
+    style="border:none;">
+</iframe>
 </div>
-
-<!-- src="{{ base_path }}/files/cv.pdf" -->
