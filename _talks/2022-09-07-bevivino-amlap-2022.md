@@ -11,7 +11,7 @@ citation: '<strong>Bevivino, D.</strong>, Hemforth, B., &amp; Turco, G. (2022). 
 coauthors: 'B. Hemforth &amp; G. Turco'
 category: posters
 paperurl: 
-abstracturl: '{{ site.url }}/files/abstracts/AMLaP_2022_finalabstract.pdf'
+abstracturl: '/files/abstracts/AMLaP_2022_finalabstract.pdf'
 # posterurl: 'https://cnrs.hal.science/hal-03924672/document'
 posterurl: '/files/posters/AMLaP2022_VirtualPoster_DB.pdf'
 posterpng: '/files/posters/AMLaP2022_VirtualPoster_DB.png'

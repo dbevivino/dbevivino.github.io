@@ -6,7 +6,7 @@ date: 2025-04-11
 venue: Université Paris Cité
 citation: '<strong>Bevivino, D</strong>. (2025). <i>A cross-linguistic perspective on priming of prosodic boundaries</i>. [Doctoral dissertation, Université Paris Cité]'
 category: dissertations
-extraurl: '{{ site.url }}/files/DBevivino_PrimingProsodicBoundaries_ToC.pdf'
+extraurl: '/files/DBevivino_PrimingProsodicBoundaries_ToC.pdf'
 extraname: 'Preview'
 ---
 
