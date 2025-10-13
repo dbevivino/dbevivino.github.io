@@ -13,7 +13,7 @@ Last updated: August 2025
 <iframe 
     src="{{ site.url }}/files/CV_DoroteaBevivino_2025_web.pdf#toolbar=0&navpanes=0&view=FitH"
     width="70%" 
-    height="100%" 
+    height="1000px" 
     style="border:none;">
 </iframe>
 </div>
