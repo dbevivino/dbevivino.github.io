@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<p style="font-size:0.9em; line-height:1.6; text-align: justify;">
 Hi, I’m Dorotea! I recently defended my PhD in Psycholinguistics at Université Paris Cité/CNRS, where I worked with Giuseppina Turco and Barbara Hemforth, supported by a [3-year LabEX EFL grant](https://www.labex-efl.fr/post/job-offer-phd-in-experimental-linguistics){:target="_blank" rel="noopener noreferrer"}.
 My PhD research investigated how speakers and listeners encode and process prosodic phrasal information, and how this influences sentence processing, using cross-modal priming paradigms in both perception and production. 
 During my PhD journey, I also had the chance to join [Mara Breen’s CAPSlab](https://sites.google.com/mtholyoke.edu/mbreen/research){:target="_blank" rel="noopener noreferrer"} for a visiting stay, and work on a project investigating the relationship between maturation of prosodic awareness and reading acquisition in children using a multi-method approach (EEG, eye-tracking, prosodic modeling of production data).
@@ -17,7 +16,7 @@ Before starting my PhD, I completed a Master's in [Cognitive Neuroscience of Lan
 Between my two master's programs, I trained and worked as a certified L2 teacher, engaging with diverse learner populations while deepening my interest in the cognitive and neurolinguistic mechanisms that underlie and facilitate language processing and acquisition. 
 
 I'm passionate and curious about all things related to psycholinguistics and cognitive language science, with a main research interest in speech and sentence processing and language acquisition.
-</p>
+
 
 <!-- Two-column responsive layout -->
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
