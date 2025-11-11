@@ -1,0 +1,129 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.read_time %}
+            <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% endif %}
+        {% if page.modified %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+        {% elsif page.date %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+        {% endif %}
+        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+
+        </header>
+      {% endunless %}
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+      
+      {% assign links = "" %}  
+
+      {% if page.posterurl %}
+        {% assign links = links | append: '<a href="' | append: page.posterurl | append: '" target="_blank" rel="noopener noreferrer">Poster</a>' %}
+      {% endif %}
+
+      {% if page.abstracturl %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.abstracturl | append: '" target="_blank" rel="noopener noreferrer">Abstract</a>' %}
+      {% endif %}
+
+      {% if page.paperurl %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.paperurl | append: '" target="_blank" rel="noopener noreferrer">Paper</a>' %}
+      {% endif %}
+
+      <!-- add extra customizable file at the end -->
+      {% if page.extraurl %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.extraurl | append: '" target="_blank" rel="noopener noreferrer">' | append: page.extraname | default: "Extra" | append: '</a>' %}
+      {% endif %}
+      <!-- add another extra customizable file at the end -->
+      {% if page.extra2url %}
+        {% if links != "" %}
+          {% assign links = links | append: ' | ' %}
+        {% endif %}
+        {% assign links = links | append: '<a href="' | append: page.extra2url | append: '" target="_blank" rel="noopener noreferrer">' | append: page.extra2name | default: "Extra" | append: '</a>' %}
+      {% endif %}
+
+      {% if page.citation %}
+      <p style="font-size: smaller; margin-bottom: 0.3em;">
+          Recommended citation: {{ page.citation }}
+      </p>
+      {% endif %}
+      <p style="font-size: smaller; margin-bottom: 1em;">
+        {{ links }}
+      </p>
+
+      <!-- {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
+
+      <!-- ADDED PRINTED POSTER -->
+        {% if page.posterurl %}
+          <a href="{{ site.url }}{{page.posterurl}}" target="_blank">
+              <img src="{{ site.url }}{{page.posterpng}}" style="max-width:50%;"></a>
+        {% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+      </footer>
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
+      {% include post_pagination.html %}
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+
+  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      {% if site.data.ui-text[site.locale].related_label %}
+        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
+      {% endif %}
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:4 %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
