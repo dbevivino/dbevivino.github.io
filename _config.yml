@@ -103,7 +103,9 @@ talk_category:
   posters:
     title: 'Poster Presentations (with peer-reviewed abstract/paper)'
   invited:
-    title: 'Invited/Internal Talks'
+    title: 'Invited Talks'
+  internal:
+    title: 'Internal Talks'
   summer_schools:
     title: 'Summer School Presentations'
 

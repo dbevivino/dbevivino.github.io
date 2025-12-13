@@ -54,17 +54,3 @@ I'm passionate and curious about all things related to psycholinguistics and cog
 </div>
 
 <!-- # News -->
-
-<!-- Inline CSS scoped to this section
-<style>
-.two-columns-local {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-}
-.two-columns-local .column {
-  flex: 1;
-  min-width: 200px;
-}
-</style> -->
