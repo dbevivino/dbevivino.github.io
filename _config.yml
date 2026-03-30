@@ -28,7 +28,7 @@ author:
   avatar           : "my-pic.jpg"
   name             : "Dorotea Bevivino"
   pronouns         : # "she/her"  
-  bio              : "Postdoctoral Researcher at CNRS - LEAD (Learning and Development Lab)" # "Short bio for the left-hand sidebar"
+  bio              : "Postdoctoral Researcher at CNRS - LEAD (Learning & Development Lab)" # "Short bio for the left-hand sidebar"
   location         : "Dijon, France"
   employer         : # "CNRS - LEAD (Laboratory for Research on Learning and Development)"
   uri              : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  twitter          : # "DoroteaBevivino"
+  twitter          : "DoroteaBevivino"
   bluesky          : "doroteabevivino.bsky.social"
   facebook         : # Username
   flickr           : # Username
