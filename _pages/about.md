@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I’m Dorotea! I'm currently a postdoctoral researcher at the CNRS [Lab for the Study of Learning and Development](https://lead.ube.fr/) (LEAD - UMR5022), working with Anna Fiveash, Barbara Tillmann, and the rhythm research group. In particular, we investigate the relationship between rhythmic competences and language processing in both typically and atypically developing populations.
+Hi, I’m Dorotea! I'm currently a postdoctoral researcher at the CNRS [Lab for the Study of Learning and Development (LEAD - UMR5022)](https://lead.ube.fr/), working with Anna Fiveash, Barbara Tillmann, and the rhythm research group. In particular, we investigate the relationship between rhythmic competences and language processing in both typically and atypically developing populations.
 
 I received my PhD in Psycholinguistics at Université Paris Cité/CNRS, where I worked with Giuseppina Turco and Barbara Hemforth, supported by a [3-year LabEX EFL grant](https://www.labex-efl.fr/post/job-offer-phd-in-experimental-linguistics){:target="_blank" rel="noopener noreferrer"}.
 My PhD research investigated how speakers and listeners encode and process prosodic phrasal information, and how this influences sentence processing, using cross-modal priming paradigms in both perception and production. 
@@ -26,8 +26,8 @@ I'm passionate and curious about all things related to psycholinguistics and cog
     <!-- Interests HTML -->
     <h2 style="margin-top:0;">Interests</h2>
   <ul class="fa-ul">
-    <li><span class="fa-li">📖</span>Prosody and Speech processing</li>
-    <li><span class="fa-li">📖</span>Sentence processing</li>
+    <li><span class="fa-li">📖</span>Prosodic and rhythmic processing</li>
+    <li><span class="fa-li">📖</span>Language processing</li>
     <li><span class="fa-li">📖</span>Language acquisition and Multilingualism</li>
     <li><span class="fa-li">📖</span>Psycholinguistics and cognitive neuroscience of language</li>
     <li><span class="fa-li">📖</span>Open science, Data analysis, and Data visualization</li>
