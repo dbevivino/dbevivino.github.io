@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I’m Dorotea! I recently defended my PhD in Psycholinguistics at Université Paris Cité/CNRS, where I worked with Giuseppina Turco and Barbara Hemforth, supported by a [3-year LabEX EFL grant](https://www.labex-efl.fr/post/job-offer-phd-in-experimental-linguistics){:target="_blank" rel="noopener noreferrer"}.
+Hi, I’m Dorotea! I'm currently a postdoctoral researcher at the CNRS [Lab for the Study of Learning and Development](https://lead.ube.fr/) (LEAD - UMR5022), working with Anna Fiveash, Barbara Tillmann, and the rhythm research group. In particular, we investigate the relationship between rhythmic competences and language processing in both typically and atypically developing populations.
+
+I received my PhD in Psycholinguistics at Université Paris Cité/CNRS, where I worked with Giuseppina Turco and Barbara Hemforth, supported by a [3-year LabEX EFL grant](https://www.labex-efl.fr/post/job-offer-phd-in-experimental-linguistics){:target="_blank" rel="noopener noreferrer"}.
 My PhD research investigated how speakers and listeners encode and process prosodic phrasal information, and how this influences sentence processing, using cross-modal priming paradigms in both perception and production. 
 During my PhD journey, I also had the chance to join [Mara Breen’s CAPSlab](https://sites.google.com/mtholyoke.edu/mbreen/research){:target="_blank" rel="noopener noreferrer"} for a visiting stay, and work on a project investigating the relationship between maturation of prosodic awareness and reading acquisition in children using a multi-method approach (EEG, eye-tracking, prosodic modeling of production data).
 Also, I proudly co-organized the [Experimental Linguistics Workshop](https://sites.google.com/view/xlingparis){:target="_blank" rel="noopener noreferrer"}.
