@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I’m Dorotea! I'm currently a postdoctoral researcher at the CNRS [Lab for the Study of Learning and Development (LEAD - UMR5022)](https://lead.ube.fr/){:target="_blank" rel="noopener noreferrer"}, working with Anna Fiveash, Barbara Tillmann, and the rhythm research group. In particular, we investigate the relationship between rhythmic competences and language processing in both typically and atypically developing populations.
+Hi, I’m Dorotea! I'm currently a postdoctoral researcher at the CNRS [Lab for the Study of Learning and Development (LEAD - UMR5022)](https://lead.ube.fr/){:target="_blank" rel="noopener noreferrer"}, working with Anna Fiveash, Barbara Tillmann, and the rhythm research group. In particular, we investigate the relationship between rhythmic competences and language processing in children with typical and atypical language development.
 
 I received my PhD in Psycholinguistics at Université Paris Cité/CNRS, where I worked with Giuseppina Turco and Barbara Hemforth, supported by a [3-year LabEX EFL grant](https://www.labex-efl.fr/post/job-offer-phd-in-experimental-linguistics){:target="_blank" rel="noopener noreferrer"}.
 My PhD research investigated how speakers and listeners encode and process prosodic phrasal information, and how this influences sentence processing, using cross-modal priming paradigms in both perception and production. 
